@@ -140,9 +140,13 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-        margin-left: auto;
+    margin-left: auto;
 }
 .button-form{
-
     border: 3px solid white;
+}
+.footer{
+    background-color:#1f2937;
+    height:50px;
+    text-align: center;
 }
