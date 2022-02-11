@@ -51,7 +51,8 @@ a{
     width: 50px;
     height: 350px;
 }
-button{
+button,
+.button-form{
     background-color: #3882f6;
     color:white;
     border:none;
@@ -108,6 +109,7 @@ button{
 }
 #author{
     margin-left:auto;
+    color:black;
 }
 .quote{
     font-size: 36px;
@@ -116,4 +118,31 @@ button{
 }
 p{
     color: white;
+}
+.section-4{
+    flex: 1 1 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display:flex;
+    flex:1;
+    margin-top:50px;
+    border-radius: 10px;
+    padding:50px;
+    height:150px;
+    background-color:#3882f6;
+}
+.buttonform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        margin-left: auto;
+}
+.button-form{
+
+    border: 3px solid white;
 }
